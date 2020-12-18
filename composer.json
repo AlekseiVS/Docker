@@ -1,0 +1,16 @@
+{
+  "name": "root/html",
+  "description": "test project",
+  "authors": [
+    {
+      "name": "a.sokoliuk",
+      "email": "sokoliuk.av@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "app\\": ""
+    }
+  }
+}
