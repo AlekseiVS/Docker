@@ -3,7 +3,7 @@ FROM php:7.2-fpm
 RUN apt-get update \
 && apt-get install -y curl openssl git libzip-dev zip\
 && docker-php-ext-configure zip --with-libzip \
-&& docker-php-ext-install pdo pdo_mysql mysqli
+&& docker-php-ext-install pdo pdo_mysql mysqli bcmath sockets
 
 RUN pecl install xdebug-2.7.1 \
 && docker-php-ext-enable xdebug

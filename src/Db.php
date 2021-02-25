@@ -1,14 +1,9 @@
 <?php
 
-namespace app\src;
+namespace App\src;
 
 class Db
 {
-    private $dbParams = [
-        'user' => 'root',
-        'password' => 'root'
-    ];
-
     private $pdo;
     private static $dbInstance;
 

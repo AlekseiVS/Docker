@@ -1,11 +1,11 @@
 <?php
 
-namespace app\src;
+namespace App\src;
 
 class Hello
 {
     public function __invoke(string $string)
     {
-        echo "\n{$string}\n";
+        echo "\n{$string}\n------------\n";
     }
 }

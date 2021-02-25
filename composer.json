@@ -7,10 +7,12 @@
       "email": "sokoliuk.av@gmail.com"
     }
   ],
-  "require": {},
+  "require": {
+    "php-amqplib/php-amqplib" : ">=2.6.1"
+  },
   "autoload": {
     "psr-4": {
-      "app\\": ""
+      "App\\src\\": "src/"
     }
   }
 }
